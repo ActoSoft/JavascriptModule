@@ -1,0 +1,51 @@
+¿Qué es un paquete de Node?
+Es un conjunto de archivos los cuales contienen
+lógica ya existente y se encapsulan para poderse
+instalar en otros proyectos
+
+¿Cómo instalamos paquetes?
+Hay 3 formas:
+    - Global - Se instala en toda la computadora
+    - Local - Se instala en el proyecto
+    - Dev
+
+- Paquetes globales
+- Ejecutar en cualquier parte de la computadora
+- sudo npm i -g <package>
+
+- Paquetes locales
+- Ser instalan dentro del proyecto
+- npm i <package>
+- Se creó la carpeta de `node_modules`
+- Se creó el archivo `package-lock.json`
+- Se agrego la sección de `dependencias` dentro del package.json
+
+- Paquetes de desarrollo
+- Se instalan dentro del proyecto
+- La diferencia "conceptual" es que estos solo se utilizan
+  durante la fase de desarrollo, es decir, no se utilizando
+  cuando el proyecto ya está en producción
+- npm i -D <package>
+
+Variable de entorno
+- En ocasiones tenemos valores sensibles (contrasenias o keys)
+- Son variables que existen y estan definidas EN LA COMPUTADORA
+- Toda la informacion sensible debe de estar definida como
+  variables de entorno
+- Como declaro variables de entorno?
+- Como leo variables de entorno?
+
+Me piden un proyecto en el cual voy a hacer front y back
+Es una aplicacion de renta de calzones
+Las personas deben de iniciar sesion, deben de tener un carrito
+Deben procesar pagos en la pagina y por paypal + oxxo
+El apartado solamente dura 30 dias
+
+- back
+
+- express
+- passport
+- conekta
+- paypal
+- luxon
+
